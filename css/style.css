@@ -16,7 +16,7 @@ body {
   height: 20vh;
   max-height: 600px;
   width: 100%;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #e0e0e0;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
   font-weight: 400;
@@ -28,11 +28,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #e0e0e0;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
   height: 30vh;
-  margin: 1%;
   width: 13vw;
 }
 
