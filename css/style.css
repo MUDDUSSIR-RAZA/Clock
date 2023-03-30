@@ -47,7 +47,7 @@ body {
   width: 80vw;
   max-width: 1200px;
   font-size: 3vw;
-  margin: auto auto;
+  margin: 0 auto 10vh auto;
 }
 
 .buttons {
