@@ -10,6 +10,10 @@ function clock() {
         hour.innerText = (date.getHours() - 12).toString().padStart(2, '0');
     }
 
+    if (hour == "00" & session != "AM") {
+        hour = 12;
+    }
+
     //FPR MINUTE
     var minute = document.getElementById("minute");
     minute.innerText = date.getMinutes().toString().padStart(2, '0');
@@ -27,7 +31,6 @@ function clock() {
         session.innerText = "AM";
     }
 
-
     var today = document.getElementById("today");
 
     //FOR DAYS
@@ -42,15 +45,12 @@ function clock() {
 
     //FOR DATE
     var nowDate = date.getDate().toString();
-    
+
     //FOR YEAR
     var nowYear = date.getFullYear().toString();
-    
-//FOR TODAY
-today.innerText = (nowDay + ", " + nowMonth + " " + nowDate + ", " + nowYear)
 
-
-
+    //FOR TODAY    
+    today.innerText = (nowDay + ", " + nowMonth + " " + nowDate + ", " + nowYear);
 }
 
 
